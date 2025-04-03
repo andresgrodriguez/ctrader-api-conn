@@ -1,0 +1,15 @@
+# Dependencias principales
+ctrader-open-api>=0.9.3  # Cliente API oficial de cTrader
+twisted>=22.10.0  # Framework asíncrono
+protobuf>=3.20.1  # Para mensajes Proto
+python-dotenv>=1.0.0  # Manejo de variables de entorno
+
+# Utilidades
+pytz>=2023.3  # Manejo de zonas horarias
+pandas>=2.0.0  # Para manipulación de datos
+tabulate>=0.9.0  # Para formateo de tablas en consola
+
+# Testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.1.0 
